@@ -1,13 +1,13 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <EntryApp msg="Welcome to Your Vue.js App"/>
   <KasMas message="greeting from parrent kasmass"/>
   <LoginForm/>
   <RegisterForm/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import EntryApp from './components/Entry.vue'
 import KasMas from './components/kas.vue'
 import LoginForm from './components/LoginForm.vue';
 import RegisterForm from './components/RegisterForm.vue';
@@ -15,7 +15,7 @@ import RegisterForm from './components/RegisterForm.vue';
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    EntryApp,
     KasMas,
     LoginForm,
     RegisterForm
